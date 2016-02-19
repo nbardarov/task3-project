@@ -1,0 +1,73 @@
+.slider {
+    margin: 0px;
+    padding: 0px;
+}
+
+.slider img {
+    display: block;
+}
+
+.slider a {
+    display: block;   
+    margin: 0px;
+    padding: 0px;
+}
+
+.slider a:hover {
+    background: url(../img/overlay/plus.png) no-repeat center;
+    background-color: black; 
+} 
+
+.slider img:hover {   
+    opacity: .2;
+}
+
+div#img1 {
+    float: left;
+    margin-bottom: 5px;
+}
+
+div#img2 {
+    float: left;
+    display: block;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 5px;
+}
+
+div#img3 {
+    float: left;
+    margin-bottom: 5px;
+}
+
+div#img4 {
+    float: left;
+    margin-right: 5px;
+}
+
+div#img5 {
+    float: left;
+    margin-bottom: 5px;
+}
+
+div#img6 {
+    float:left;
+    margin-bottom: 5px;
+}
+
+div#img7 {
+    float: left;
+    display: block;
+}
+
+div#img8 {
+    float: left;
+    margin-left: 4px;
+    margin-right: 5px;
+}
+
+div#img9 {
+    float: left;
+    display: block;
+}
+
