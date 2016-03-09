@@ -13,6 +13,8 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/slider.css">
+		
     <?php if($page_title == 'Contacts') { ?>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXSvNhrGGECmJMZKs3Ewbz32jVRvLTTq4&language=en"></script>
     <?php } ?>
@@ -21,7 +23,20 @@
     </script>
 </head>
 <body>
-    <div class="wrapper1 clearfix" role="main">
+	<div class="wrapper clearfix" role="main">
         <header>
-            <h1>Header</h1>
+            <form>
+                <input class="searchbox" type="text" placeholder="Enter your search..."></input>
+            </form>
+            <img class="logo" src="img/logo.png" />
+            <nav>
+                <ul class="nav-menu border-top">
+                    <li><a href="index.php">Home</a></li>
+                    <li class="active"><a href="about.php">About</a></li>
+                    <li><a href="blog.php">Blog</a></li>
+                    <li><a href="contacts.php">Contact</a></li>
+                </ul>
+            </nav>
         </header>
+		
+		
